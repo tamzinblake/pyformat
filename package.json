@@ -1,0 +1,25 @@
+{
+  "name": "pyformat",
+  "version": "0.0.0",
+  "description": "Simple python-style string formatting for JS",
+  "main": "pyformat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thomblake/pyformat.git"
+  },
+  "keywords": [
+    "python",
+    "string",
+    "format"
+  ],
+  "author": "Thom Blake",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "62a2574d66d0301243a0a68b0992a562ca7528f2",
+  "bugs": {
+    "url": "https://github.com/thomblake/pyformat/issues"
+  }
+}
