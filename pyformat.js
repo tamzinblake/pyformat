@@ -15,6 +15,17 @@ var pyformat = function (str ,args ,kwargs) {
   return str.replace(/\{([^}]*)\}/g ,fn)
 }
 
+if (typeof exports === 'object') {
+  module.exports = pyformat
+}
+else if (typeof define === 'function' && define.amd) {
+  define(function() { return pyformat })
+}
+else {
+  this.pyformat = pyformat
+}
+
+
 /*
 console.log(pyformat( 'The {} {} jumped over the {}'
                     , ['brown' ,'fox' ,'foobar']
