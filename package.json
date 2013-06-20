@@ -1,8 +1,8 @@
 {
   "name": "pyformat",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple python-style string formatting for JS",
-  "main": "pyformat.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
