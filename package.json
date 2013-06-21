@@ -21,5 +21,9 @@
   "gitHead": "62a2574d66d0301243a0a68b0992a562ca7528f2",
   "bugs": {
     "url": "https://github.com/thomblake/pyformat/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.0",
+    "mocha": "~1.11.0"
   }
 }
