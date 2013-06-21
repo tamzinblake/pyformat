@@ -1,6 +1,6 @@
 {
   "name": "pyformat",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Simple Python-style string formatting for JS",
   "main": "index.js",
   "scripts": {
