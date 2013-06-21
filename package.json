@@ -1,7 +1,7 @@
 {
   "name": "pyformat",
   "version": "0.2.1",
-  "description": "Simple python-style string formatting for JS",
+  "description": "Simple Python-style string formatting for JS",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -25,5 +25,6 @@
   "devDependencies": {
     "chai": "~1.7.0",
     "mocha": "~1.11.0"
-  }
+  },
+  "license": "MIT"
 }
