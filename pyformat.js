@@ -24,16 +24,3 @@ else if (typeof define === 'function' && define.amd) {
 else {
   this.pyformat = pyformat
 }
-
-
-/*
-console.log(pyformat( 'The {} {} jumped over the {}'
-                    , ['brown' ,'fox' ,'foobar']
-                    ))
-console.log(pyformat( 'The {0} {1} jumped over the {1}'
-                    , ['brown' ,'fox' ,'foobar']
-                    ))
-console.log(pyformat('The {color} {animal} jumped over the {thing}'
-                    , [] ,{color: 'brown' ,animal: 'fox' ,thing: 'foobaz'}
-                    ))
-*/
